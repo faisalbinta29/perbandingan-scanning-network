@@ -38,7 +38,9 @@ Menyederhanakan Perintah Nmap: Zenmap menampilkan perintah Nmap yang sesuai deng
 
 Cara Menggunakan Zenmap:
 1.Masukkan Alamat Target: Pengguna hanya perlu memasukkan alamat IP atau domain target.
+
 2.Pilih Profil Pemindaian: Zenmap memiliki beberapa profil pemindaian yang bisa dipilih, seperti pemindaian cepat/quick scan, pemindaian intensif, atau deteksi OS.
+
 3.Lihat Hasil: Setelah pemindaian selesai, hasil akan ditampilkan dalam bentuk tabel, grafik, dan topologi jaringan.
 
 berikut merupakan contoh hasil tampilan
