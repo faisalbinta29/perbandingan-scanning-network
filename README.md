@@ -37,6 +37,7 @@ Support Multi-Platform: Zenmap tersedia untuk berbagai sistem operasi seperti Li
 Menyederhanakan Perintah Nmap: Zenmap menampilkan perintah Nmap yang sesuai dengan konfigurasi pemindaian yang dipilih pengguna, sehingga membantu mempelajari perintah-perintah Nmap sambil menggunakan GUI.
 
 Cara Menggunakan Zenmap:
+
 1.Masukkan Alamat Target: Pengguna hanya perlu memasukkan alamat IP atau domain target.
 
 2.Pilih Profil Pemindaian: Zenmap memiliki beberapa profil pemindaian yang bisa dipilih, seperti pemindaian cepat/quick scan, pemindaian intensif, atau deteksi OS.
@@ -44,6 +45,7 @@ Cara Menggunakan Zenmap:
 3.Lihat Hasil: Setelah pemindaian selesai, hasil akan ditampilkan dalam bentuk tabel, grafik, dan topologi jaringan.
 
 berikut merupakan contoh hasil tampilan
+
 ![zenmap 1](https://github.com/user-attachments/assets/0a63ccbc-9f74-4eef-ad03-4db6ebf0be10)
 
 # Anggry IP Scan
