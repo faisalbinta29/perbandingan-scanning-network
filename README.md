@@ -5,21 +5,22 @@ Nmap (Network Mapper) merupakan tools open-source yang digunakan untuk eksploras
 
 berikut merupakan beberapa command yang dapat digunakan untuk melakukan scanning network
 
-1. Nmap dapat memindai IP atau jaringan tertentu untuk menemukan host yang aktif dan port terbuka, berikut merupakan contoh command : nmap (nama website)
+1.Nmap dapat memindai IP atau jaringan tertentu untuk menemukan host yang aktif dan port terbuka, berikut merupakan contoh command : nmap (nama website)
 
 ![nmap 1](https://github.com/user-attachments/assets/7ba4d761-2622-4763-acc6-ccb8af6220e3)
 
-2. Nmap dapat mengenali versi layanan (seperti HTTP, FTP, atau SSH) yang berjalan di host tertentu, berikut merupakan contoh command : nmap -sV (nama website)
+2.Nmap dapat mengenali versi layanan (seperti HTTP, FTP, atau SSH) yang berjalan di host tertentu, berikut merupakan contoh command : nmap -sV (nama website)
 
 ![nmap 2](https://github.com/user-attachments/assets/baf9b8a7-df72-40cd-84f1-2e85cb11c9e2)
 
-3. Dengan menggunakan script Nmap (Nmap Scripting Engine - NSE), pengguna bisa memindai kerentanan di layanan yang ditemukan, berikut merupakan Contoh command: nmap --script=vuln 192.168.1.1
-   akan menjalankan skrip deteksi kerentanan umum.
+3.Dengan menggunakan script Nmap (Nmap Scripting Engine - NSE), pengguna bisa memindai kerentanan di layanan yang ditemukan, berikut merupakan Contoh command: nmap --script=vuln 192.168.1.1
+akan menjalankan skrip deteksi kerentanan umum.
 
-4. Nmap bisa digunakan untuk mendeteksi jenis sistem operasi yang digunakan oleh host, serta detail tentang versinya, berikut Contoh command: nmap -O 192.168.1.1
-   akan mencoba mendeteksi sistem operasi host tersebut.
+4.Nmap bisa digunakan untuk mendeteksi jenis sistem operasi yang digunakan oleh host, serta detail tentang versinya, berikut Contoh command: nmap -O 192.168.1.1 
+akan mencoba mendeteksi sistem operasi host tersebut.
 
-   #Zenmap
+# Zenmap
+
 Zenmap adalah antarmuka grafis resmi untuk Nmap. Zenmap dirancang untuk membuat penggunaan Nmap lebih mudah, terutama bagi pengguna yang kurang familiar dengan perintah baris (command line interface). Dengan Zenmap, pengguna dapat melakukan pemindaian jaringan, melihat hasil secara visual, dan menyimpan profil pemindaian untuk digunakan kembali di masa depan.
 
 Fitur Utama Zenmap:
@@ -36,14 +37,14 @@ Support Multi-Platform: Zenmap tersedia untuk berbagai sistem operasi seperti Li
 Menyederhanakan Perintah Nmap: Zenmap menampilkan perintah Nmap yang sesuai dengan konfigurasi pemindaian yang dipilih pengguna, sehingga membantu mempelajari perintah-perintah Nmap sambil menggunakan GUI.
 
 Cara Menggunakan Zenmap:
-1. Masukkan Alamat Target: Pengguna hanya perlu memasukkan alamat IP atau domain target.
-2. Pilih Profil Pemindaian: Zenmap memiliki beberapa profil pemindaian yang bisa dipilih, seperti pemindaian cepat/quick scan, pemindaian intensif, atau deteksi OS.
-3. Lihat Hasil: Setelah pemindaian selesai, hasil akan ditampilkan dalam bentuk tabel, grafik, dan topologi jaringan.
+1.Masukkan Alamat Target: Pengguna hanya perlu memasukkan alamat IP atau domain target.
+2.Pilih Profil Pemindaian: Zenmap memiliki beberapa profil pemindaian yang bisa dipilih, seperti pemindaian cepat/quick scan, pemindaian intensif, atau deteksi OS.
+3.Lihat Hasil: Setelah pemindaian selesai, hasil akan ditampilkan dalam bentuk tabel, grafik, dan topologi jaringan.
 
 berikut merupakan contoh hasil tampilan
 ![zenmap 1](https://github.com/user-attachments/assets/0a63ccbc-9f74-4eef-ad03-4db6ebf0be10)
 
-#Anggry IP Scan
+# Anggry IP Scan
 
 Angry IP Scanner adalah alat pemindai jaringan sumber terbuka yang ringan dan mudah digunakan, yang dirancang untuk memindai alamat IP dan port dalam suatu jaringan. Alat ini sering digunakan oleh administrator jaringan dan profesional keamanan untuk memantau jaringan, mencari perangkat aktif, serta memeriksa port yang terbuka.
 
@@ -79,7 +80,7 @@ contoh hasil tampilan :
 
 ![anggry ip scan 1](https://github.com/user-attachments/assets/ed17e2ce-a7a3-41f4-b61e-b46e855f7abd)
 
-#hasil akhir
+# hasil akhir
 
 Nmap merupakan tools yang  kuat dan serbaguna untuk pemindaian jaringan dan audit keamanan.tools ini cocok untuk pengguna tingkat lanjut karena mendukung berbagai fungsi seperti deteksi sistem operasi, layanan, dan kerentanan. Namun, Nmap memiliki kurva belajar yang lebih tinggi, karena sebagian besar dioperasikan melalui antarmuka baris perintah. 
 
